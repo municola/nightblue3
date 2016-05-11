@@ -1,0 +1,185 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-size: 62.5%;
+	font-family: "Calibri";
+	-webkit-font-smoothing: antialiased;
+}
+
+#wrapper{
+	margin: 0px;
+	padding: 0px;
+}
+
+#toper{
+	background-image: url('rift.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+#top{
+	padding: 0px;
+	height: 65px;
+	margin: 0px;
+}
+
+.logo{
+	padding: 0px;
+	margin-top: 7px;
+	margin-left: 10%;
+	width: 150px;
+	float: left;
+}
+
+#brand{
+	float: left;
+	padding: 10px;
+	padding-left: 10px;
+	color: white;
+}
+
+#brand p{
+	margin: 0px;
+	padding: 0px;
+	font-size: 55px;
+}
+
+.social{
+	float: right;
+	padding: 20px;
+}
+
+.media{
+	padding-right: 5px;
+}
+
+#top2{
+	padding: 0px;
+	height: 100px;
+	margin: 0px;
+	border-bottom: 1px solid grey;	
+}
+
+.slide{
+	margin: 0px;
+	margin-left: 750px;
+	word-spacing: 30px;
+	padding-top: 20px;
+	font-size: 30px;
+	color: lightblue;
+}
+
+#about{
+	padding: 0px;
+	margin: 0xp;
+	background-image: url('rengar.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.content{
+	margin: 0px;
+	padding: 0px;
+}
+
+.transpartenbox1{
+	padding: 15px;
+	border: 2px solid white;
+	border-style: double;
+	margin: 0xp;
+	margin-left: 10%;
+	margin-right: 40%;
+	background-color: rgba(105, 105, 105, 0.4);
+}
+
+.transpartenbox2{
+	padding: 10px;
+	border: 2px solid white;
+	border-style: double;
+	margin: 0xp;
+	margin-left: 40%;
+	margin-right: 10%;
+	background-color: rgba(105, 105, 105, 0.7);
+}
+
+#normal{
+	margin: 0px;
+	padding: 0px;
+	color: white;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+#titel{
+	font-size: 25px;
+	color: white;
+	padding: 0px;
+	margin:0px;
+	font-weight: bold;
+	}
+	
+#FAQ{
+	padding: 0px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin: 0xp;
+	background: url('rammus.png');	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
+}
+
+#PC{
+	padding: 0px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin: 0xp;
+	background: url('kha2.jpg');	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom right;
+}
+
+#foot{
+	min-height: 300px;
+	padding: 0px;
+	margin: 0xp;
+	background-image: url('rift.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-color: rgba(105, 105, 105, 0.9);
+}
+
+.social2{
+	padding-left: 30%;
+	padding-top: 100px;
+}
+
+.media2{
+	padding-right:100px;
+}
+
+a:link{
+	color: blue;
+	background-color:transparent; 
+	text-decoration:none
+	}
+	
+a:visited {
+	color: white;
+	background-color:transparent; 
+	text-decoration:none
+	}
+
+a:hover{
+	color: lightblue; 
+	background-color:transparent; 
+	text-decoration:none;
+	}
+
+
