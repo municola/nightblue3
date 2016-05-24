@@ -2,7 +2,7 @@ build:
   type: build
   image: docker.dolansoft.org/lorenz/dockpipe:0.3
   script:
-    - dockpipe docker.dolansoft.org/nicolas/nightblue3:$CI_BUILD_REF
+    - dockpipe docker.dolansoft.org/nicolas/nightblue3:$CI_BUILD_REF .
   tags:
     - docker
     - v2
