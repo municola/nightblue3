@@ -1,0 +1,5 @@
+web:
+  image: docker.dolansoft.org/nicolas/nightblue3:%CI_BUILD_REF%
+  environment:
+    VIRTUAL_HOST: www.nightblue3.ch,nightblue3.ch
+    LE_NAME: www.nightblue3.ch

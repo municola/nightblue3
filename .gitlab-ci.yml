@@ -1,0 +1,23 @@
+build:
+  type: build
+  image: docker.dolansoft.org/lorenz/dockpipe:0.3
+  script:
+    - dockpipe docker.dolansoft.org/nicolas/nightblue3:$CI_BUILD_REF
+  tags:
+    - docker
+    - v2
+
+deploy:
+  type: deploy
+  script:
+    - sed -i "s|%CI_BUILD_REF%|$CI_BUILD_REF|" deploy.yml
+    - mkdir -p /hex/nightblue3
+    - cp deploy.yml /hex/nightblue3/fig.yml
+    - cd /hex/nightblue3
+    - sudo docker-compose pull --allow-insecure-ssl
+    - sudo docker-compose up -d
+  tags:
+    - deploy
+    - yellow
+  only:
+    - master
