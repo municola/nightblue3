@@ -48,6 +48,7 @@ body{
 .social{
 	float: right;
 	padding: 20px;
+	padding-bottom: 0px;
 }
 
 .media{
@@ -68,6 +69,10 @@ body{
 	padding-top: 20px;
 	font-size: 30px;
 	color: lightblue;
+}
+
+.slide1{
+	display: inline-block;
 }
 
 .content{
@@ -169,16 +174,41 @@ body{
 }
 
 .social2{
-	padding-left: 30%;
-	padding-top: 100px;
+	padding-top:110px;
+	text-align:center;
 }
 
-.media2{
+#social1{
+	display: inline-block;
 	padding-right:100px;
 }
 
+#social2{
+	display: inline-block;
+	padding-right:100px;
+}
+
+#social3{
+	display: inline-block;
+	padding-right:100px;
+}
+
+#social4{
+	display: inline-block;
+}
+
+#social-12{
+	display: inline-block;
+	padding right: 100px;
+}
+
+#social-34{
+	display: inline-block;
+}
+
+
 a:link{
-	color: blue;
+	color: white;
 	background-color:transparent; 
 	text-decoration:none
 	}
@@ -194,3 +224,65 @@ a:hover{
 	background-color:transparent; 
 	text-decoration:none;
 	}
+
+@media screen and (max-width: 1120px){
+	.slide{
+		float:left;
+		margin: 0px;
+		padding-left: 10px;
+		word-spacing: 30px;
+		padding-top: 20px;
+		font-size: 30px;
+		color: red;
+	}
+
+	#brand{
+		display:none;
+		clear: both;
+	}
+
+	.transpartenbox1{
+		margin-right:10%;
+	}
+
+	.transpartenbox2{
+		margin-left: 10%;
+	}
+
+}
+
+@media screen and (max-width: 660px){
+
+	#social2{
+		padding: 0px;
+	}
+
+	.social2{
+		padding-top:55px;
+	}
+
+	#social-12{
+		width: 100%;
+		padding-bottom: 20px;
+
+	}
+
+}
+
+@media screen and (max-width: 573px){
+
+	 .logo{
+	 	display: none;
+	 }
+
+	 .social{
+	 	margin: 0px;
+	 	float: none;
+	 	text-align: center;
+	 }
+
+	 .slide{
+	 	text-align: center;
+	 	float: none;
+	 }
+}
