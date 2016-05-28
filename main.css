@@ -48,6 +48,7 @@ body{
 .social{
 	float: right;
 	padding: 20px;
+	padding-bottom: 0px;
 }
 
 .media{
@@ -70,33 +71,47 @@ body{
 	color: lightblue;
 }
 
-.content{
-	background-image: url('elise.jpg');
-	padding-top: 100px;
+.slide1{
+	display: inline-block;
+}
+
+#about{
+	padding: 0px;
+	margin: 0xp;
+	background-image: url('rengar.jpg');
+	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: top left;
+	background-position: center;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.content{
+	margin: 0px;
+	padding: 0px;
 }
 
 .transpartenbox1{
-	padding: 40px;
+	padding: 15px;
 	border: 2px solid white;
 	border-style: double;
 	margin: 0xp;
 	margin-left: 10%;
 	margin-right: 40%;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(105, 105, 105, 0.4);
 }
 
 .transpartenbox2{
-	padding: 40px;
+	padding: 10px;
 	border: 2px solid white;
 	border-style: double;
 	margin: 0xp;
 	margin-left: 40%;
 	margin-right: 10%;
-	background-color: rgba(0, 0, 0, 0.9);
+	background-color: rgba(105, 105, 105, 0.7);
 }
-.normal{
+
+#normal{
 	margin: 0px;
 	padding: 0px;
 	color: white;
@@ -104,59 +119,36 @@ body{
 	font-weight: 100;
 }
 
-#gfuel{
-	background-image: url('gfuel.jpg');
-	padding-top: 100px;
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 100px;
-}
-
-#G2A{
-	background-image: url('g2a.png');
-	padding-top: 100px;
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 100px;
-}
-
-#cyber{
-	background-image: url('cyber.png');
-	padding-top: 100px;
-	background-size: cover;
-	background-position: center;
-	padding-bottom: 100px;
-}
-
-#text{
-	padding: 15px;
-	border: 2px solid white;
-	border-style: double;
-	margin: 0xp;
-	margin-left: 20%;
-	margin-right: 20%;
-	background-color: rgba(105, 105, 105, 0.4);
-	color: white;
-	font-size: 20px;
-	font-weight: 100;
-}
-
-#streamimg{
-	margin: 0px;
-	margin-left: 30%;
-	margin-right: 30%;
-	padding-top: 100px;
-	padding-bottom: 100px;
-}
-
 #titel{
 	font-size: 25px;
 	color: white;
-	padding-bottom: 10px;
+	padding: 0px;
 	margin:0px;
 	font-weight: bold;
 	}
 	
+#FAQ{
+	padding: 0px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin: 0xp;
+	background: url('rammus.png');	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom left;
+}
+
+#PC{
+	padding: 0px;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	margin: 0xp;
+	background: url('kha2.jpg');	
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom right;
+}
+
 #foot{
 	min-height: 300px;
 	padding: 0px;
@@ -169,7 +161,7 @@ body{
 }
 
 .social2{
-	padding-top:100px;
+	padding-top:110px;
 	text-align:center;
 }
 
@@ -192,6 +184,16 @@ body{
 	display: inline-block;
 }
 
+#social-12{
+	display: inline-block;
+	padding right: 100px;
+}
+
+#social-34{
+	display: inline-block;
+}
+
+
 a:link{
 	color: white;
 	background-color:transparent; 
@@ -209,5 +211,68 @@ a:hover{
 	background-color:transparent; 
 	text-decoration:none;
 	}
+
+@media screen and (max-width: 1120px){
+	.slide{
+		float:left;
+		margin: 0px;
+		padding-left: 10px;
+		word-spacing: 30px;
+		padding-top: 20px;
+		font-size: 30px;
+		color: red;
+	}
+
+	#brand{
+		display:none;
+		clear: both;
+	}
+
+	.transpartenbox1{
+		margin-right:10%;
+	}
+
+	.transpartenbox2{
+		margin-left: 10%;
+	}
+
+}
+
+@media screen and (max-width: 660px){
+
+	#social2{
+		padding: 0px;
+	}
+
+	.social2{
+		padding-top:55px;
+	}
+
+	#social-12{
+		width: 100%;
+		padding-bottom: 20px;
+
+	}
+
+}
+
+@media screen and (max-width: 573px){
+
+	 .logo{
+	 	display: none;
+	 }
+
+	 .social{
+	 	margin: 0px;
+	 	float: none;
+	 	text-align: center;
+	 }
+
+	 .slide{
+	 	text-align: center;
+	 	float: none;
+	 }
+}
+
 
 
