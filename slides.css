@@ -133,7 +133,7 @@ body{
 }
 
 #Overwolf{
-	background-image: url('Overwolf.jpg');
+	background-image: url('overwolf.jpg');
 	padding-top: 100px;
 	background-size: cover;
 	background-position: bottom right;
@@ -141,7 +141,7 @@ body{
 }
 
 #Curse{
-	background-image: url('Curse.jpg');
+	background-image: url('curse.jpg');
 	padding-top: 100px;
 	background-size: cover;
 	background-position: center;
