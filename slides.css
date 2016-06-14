@@ -132,6 +132,22 @@ body{
 	padding-bottom: 100px;
 }
 
+#Overwolf{
+	background-image: url('Overwolf.jpg');
+	padding-top: 100px;
+	background-size: cover;
+	background-position: bottom right;
+	padding-bottom: 100px;
+}
+
+#Curse{
+	background-image: url('Curse.jpg');
+	padding-top: 100px;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100px;
+}
+
 #cyber{
 	background-image: url('cyber.png');
 	padding-top: 100px;
